@@ -1,13 +1,22 @@
 # Redes-Convolucionales — Dos Redes Neuronales Convolucionales (CNN)
 
-Notebook con dos redes neuronales convolucionales entrenadas de forma independiente:
+## Descripción
 
-1. **Clasificador de dígitos escritos a mano** — reconoce qué número representa una imagen (dataset de dígitos manuscritos).
-2. **Clasificador de perros y gatos** — distingue entre imágenes de perros y gatos, usando un dataset provisto por TensorFlow.
+Notebook con dos redes neuronales convolucionales entrenadas de forma independiente:
 
 ## Contenido
 
 - `Red_Neuronal_Convolucional.ipynb` — notebook con ambos modelos: construcción, entrenamiento y evaluación.
+
+## Diagrama
+
+[Explorar la arquitectura interactiva en GitDiagram](https://gitdiagram.com/HoracioLaphitz/Redes-Convolucionales)
+
+```mermaid
+flowchart LR
+  A["Red_Neuronal_Convolucional.ipynb"] --> B["Procesamiento de Redes-Convolucionales"]
+  B --> C["Resultados del proyecto"]
+```
 
 ## Tecnologías
 
